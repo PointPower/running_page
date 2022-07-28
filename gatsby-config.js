@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: '/running_page', // Change to `/running_page` when running on github pages
   siteMetadata: {
-    siteTitle: 'GaoQi`s Running Page',
+    siteTitle: 'gaoqi 的跑步记录',
     siteUrl: 'https://gaoqi.vercel.app',
     logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
     description: 'Personal site and blog',
