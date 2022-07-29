@@ -72,10 +72,10 @@ const Index = () => {
   };
 
   const locateActivity = (run) => {
+    scrollToMap();
     setGeoData(geoJsonForRuns([run]));
     setTitle(titleForShow(run));
     clearInterval(intervalId);
-    scrollToMap();
   };
 
   useEffect(() => {
